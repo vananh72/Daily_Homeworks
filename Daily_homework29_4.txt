@@ -1,0 +1,13 @@
+-Create a merge commit
++Tất cả các commit từ nhánh này sẽ được thêm vào nhánh chính thông qua một merge commit.
++Giữ lại tất cả các commit trong nhánh tính năng và xen kẽ chúng với các commit trên nhánh chính.
++Vì giữ lại tất cả các commit thì trên nhánh chính nhìn có vẻ phức tạp nhưng diễn tả chính xác hơn các thay đổi từ nhánh tính năng đến nhánh chính.
+
+-Squash and merge
++Commit squashing có lợi ích là giữ cho lịch sử git gọn gàng và dễ đọc hơn so với phương pháp Create a merge commit.
++Squashing giữ lại các thay đổi nhưng bỏ qua các commit cá nhân khỏi lịch sử commit.
++Sẽ nhóm tất cả các commit nhánh tính năng thành một commit sau đó nối nó ở phía trước nhánh chính.
+
+-Rebase and merge
++Commit từ nhánh này sẽ được phục hồi và thêm vào nhánh chính.
++Di chuyển toàn bộ nhánh tính năng vào đầu của nhánh chính.

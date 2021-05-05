@@ -1,0 +1,43 @@
+Viết một bài tóm tắt về OOP theo 5W1H
+- WHAT: OOP là gì?
++ OOP là viết tắt của cụm từ Object Oriented Programming, nghĩa là lập trình hướng đối tượng
++ Lập trình hướng đối tượng là việc chúng ta chia bài toán thành các đối tượng.
++Đối tượng (Object) gồm 2 thành phần chính:
+		Thuộc tính: những thông tin, đặc điểm của đối tượng
+		Phương thức: những hành vi mà đối tượng có thể thực hiện
++OOP có 4 tính chất sau:
+        Tính kế thừa (quan hệ cha con): khả năng xây dựng lớp mới dựa trên những lớp có sẵn(lớp cha). Lớp con có thể bổ sung thêm các phương thức và thuộc tính mới
+	Tính đóng gói: không cho phép thay đổi trạng thái bên trong 1 đối tượng, chỉ các phương thức nội tại mới thay đổi được
+	Tính trừu tượng: bỏ qua các đặc điểm chung của các đối tượng, tập trung vào các đặc điểm riêng của từng đối tượng
+	Tính đa hình: cho phép các đối tượng khác nhau thực thi chức năng giống nhau theo những cách khác nhau.
+
+- WHY: tại sao lại nên sử dụng OOP? 
+Bởi OOP sở hữu những ưu điểm sau:
++code OOP có thể sử dụng lại, giúp tiết kiệm tài nguyên.
++ Có tính bảo mật cao, bảo vệ thông tin thông qua đóng gói.
++ Giúp sửa lỗi dễ dàng hơn. So với việc tìm lỗi ở nhiều vị trí trong code thì tìm lỗi trong các lớp (được cấu trúc từ trước) đơn giản và ít mất thời gian hơn.
++ Dễ mở rộng dự án.
+
+- WHEN: Khi nào sử dụng đến OOP?
+Mô hình OOP chủ yếu là hữu ích cho phần mềm tương đối lớn và xuất hiện nhiều đối tượng khác nhau. Giữa các đối tượng có 1 số điểm chung nhất định, lúc này 
+OOP sẽ phát huy thế mạnh của nó, điều này ta có thấy thông qua các tính chất của OOP (Cụ thể ở đây, ta có thể sử dụng Đa hình (Abstract - là một Class cha dùng để 
+định nghĩa về bản chất cho các Class con.))
+
+
+ WHO: những ai cần sử dụng kiến thức về OOP?
+Bất kì lập trình viên nào cũng cần phải trang bị cho mình những kiến thức cơ bản về OOP .
+
+
+- WHERE: OOP được sử dụng phổ biến trong những ngôn ngữ nào?
++ OOP được tích hợp sử dụng trong những ngôn ngữ sau: Java, C++, PHP, JavaScript, Python... Trong đó, Java được xem là ngôn ngữ OOP phổ biến hiện nay 
++ Các môi trường chạy của Java bao gồm:
+   JDK:  (Java Development Kit) môi trường tool phát triển của java, gồm compiler (biên dịch ra byte code) và JRE
+   JRE:  (Java Runtime Environmet) môi trường thực thi thời gian thực java 
+   JVM:  (Java Vitual Machine) là không gian máy ảo để biên dịch code để thực thi
+
+
+- HOW: xử lý bài toán theo hướng OOP như thế nào?
++ Xác định các đối tượng trong bài toán
++ Trừu tượng hóa các đối tượng và nhóm các đối tượng có liên quan với nhau
++ Hình thành đối tượng cha chung nhất của các đối tượng đã được nhóm ở trên.
++ Kiểm tra, loại bỏ các thông tin thuộc tính không cần thiết nếu nó không được dùng trong hành vi nào.

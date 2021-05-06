@@ -1,0 +1,5 @@
+Trong gitflow, khi một nhánh hotfix được tạo, sau khi fix xong lỗi thì nó sẽ được merge vào các nhánh ưu tiên theo số lượng người dùng: Master -> Canary -> Staging -> Develop
+
++ Merge vào master vì khi hotfix xảy ra trên master chúng ta cần ưu tiên mức độ quan trọng của các nhánh,nhánh master chứa lượng người dùng lớn nên phải sửa nhanh để phục vụ ngay cho người dùng (khách hàng )của mình.
++ Merge vào Canary và Staging vì 2 nhánh này chiếm lượng người dùng khá lớn (nhỏ hơn master), khi fix lỗi xong ở nhánh hotfix thì ở 2 nhánh này vẫn còn lỗi đó 	
++ Merge vào develop vì nếu chỉ sửa ở nhánh master mà không cập nhập vào nhánh develop, nhánh  develope sẽ không biết là đã đã sửa lỗi đấy , tránh khi phát triển thêm mà vẫn còn lỗi đó.

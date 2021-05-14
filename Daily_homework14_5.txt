@@ -1,0 +1,32 @@
+Tổng hợp lại kiến thức lý thuyết database:
+1. Khái niệm Cơ sở dữ liệu
+	-CSDL Là là hệ thống gồm rất nhiều thông tin, dữ liệu được xây dựng theo một cấu trúc nhất định nhằm đáp ứng nhu cầu khai thác,sử dụng của nhiều người hay chạy nhiều chương trình cùng một lúc
+	-Hệ quản trị cơ sở dữ liệu (DBMS) là một phần mềm cho phép tạo lập các CSDL cho các ứng dụng khác nhau và điều khiển mọi truy cập tới các CSDL đó
+	-Các mức thể hiện:
+   	 	+Mức khunh hình: là phần dữ liệu trong cơ sở dữ liệu mà chúng ta cần sử dụng, chỉ quan tâm đến phần chúng ta cần thôi.
+    	 	+Mức Logic ( hay là mức khái niệm): là mức này sẽ liệu kê được những gì được lưu trong CSDL và liên kết giữa chúng như thế nào
+   		+Mức vật lý: thiết bị cứng để lưu trữ dữ liệu, hiểu đơn giản là phần cứng như ổ đĩa.
+2.Lợi ích của csdl:
+	+ Lưu trữ thông tin hệ thống
+	+ Đảm bảo an toàn dữ liệu
+	+ Phục vụ nhiều người cùng truy cập 1 thời điểm
+	+ Tránh trùng lặp dữ liệu
+	+ Lưu dữ liệu thành dạng table -> xem dễ hơn
+	+ Tách biệt giữa các chương trình
+	+ Có thuộc tính ACID
+	Atomicity: Tính nguyên tử
+ 	Consistency: Tính nhất quán
+	Isolation: Tính độc lập
+	Durability: Tính bền vững 
+3.Các loại liên kết trong csdl:
+	+ 1-1
+	+ 1-n
+	+ n-n
+4. Một vài khái niệm cơ bản:
+	-Khóa chính: để định danh mỗi bản ghi trong bảng là duy nhất
+	-Khóa ngoại: được xem như con trỏ trỏ tới khóa chính của bảng khác
+	-Thuộc tính: là các đặc tính riêng biệt của đối tượng cần quản lí
+	-Thuộc tính dẫn xuất: là thuộc tính có thể tính toán ra tự các thuộc tính khác
+	-Bảng: lưu trữ thông tin của đối tượng theo các bản ghi và thuộc tính
+	-Bản ghi: là 1 hàng trong bảng
+	-Query: dùng để truy vấn dữ liệu
